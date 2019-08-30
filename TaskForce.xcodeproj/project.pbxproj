@@ -16,8 +16,6 @@
 		0F3532022137950E0038F561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3532012137950E0038F561 /* Assets.xcassets */; };
 		0F3532052137950E0038F561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3532032137950E0038F561 /* LaunchScreen.storyboard */; };
 		0F35320D2137A2EE0038F561 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35320C2137A2EE0038F561 /* DetailViewController.swift */; };
-		0F3F5BEA21418749006D6FB2 /* ReportDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F5BE921418749006D6FB2 /* ReportDetailController.swift */; };
-		0F43BE24213F5B9200E0D6D1 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F43BE23213F5B9200E0D6D1 /* ReportViewController.swift */; };
 		0F447260214A13C50086EDB4 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44725F214A13C50086EDB4 /* ReportModel.swift */; };
 		0F5373EC21D0C7B4003E58D9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5373EB21D0C7B4003E58D9 /* ListModel.swift */; };
 		0F7E1603229BAD5C0033C411 /* v1JotIt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E1602229BAD5C0033C411 /* v1JotIt.png */; };
@@ -36,8 +34,6 @@
 		0F3532042137950E0038F561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3532062137950E0038F561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F35320C2137A2EE0038F561 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		0F3F5BE921418749006D6FB2 /* ReportDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailController.swift; sourceTree = "<group>"; };
-		0F43BE23213F5B9200E0D6D1 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		0F44725F214A13C50086EDB4 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
 		0F5373EB21D0C7B4003E58D9 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		0F7E1602229BAD5C0033C411 /* v1JotIt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v1JotIt.png; path = ../../../v1JotIt.png; sourceTree = "<group>"; };
@@ -86,17 +82,15 @@
 				0F3531FA2137950D0038F561 /* HomeViewController.swift */,
 				0F3531FC2137950D0038F561 /* MenuViewController.swift */,
 				0F35320C2137A2EE0038F561 /* DetailViewController.swift */,
-				0F3531FE2137950D0038F561 /* Main.storyboard */,
-				0F3532012137950E0038F561 /* Assets.xcassets */,
-				0F3532032137950E0038F561 /* LaunchScreen.storyboard */,
-				0F3532062137950E0038F561 /* Info.plist */,
-				0F7E1602229BAD5C0033C411 /* v1JotIt.png */,
-				0F43BE23213F5B9200E0D6D1 /* ReportViewController.swift */,
-				0F3F5BE921418749006D6FB2 /* ReportDetailController.swift */,
-				0F05900321471F4300114BC5 /* GoogleService-Info.plist */,
 				0F5373EB21D0C7B4003E58D9 /* ListModel.swift */,
-				0FC045DC225A730900D40DBF /* hamburger icon.png */,
 				0F44725F214A13C50086EDB4 /* ReportModel.swift */,
+				0F3531FE2137950D0038F561 /* Main.storyboard */,
+				0F3532032137950E0038F561 /* LaunchScreen.storyboard */,
+				0F3532012137950E0038F561 /* Assets.xcassets */,
+				0F3532062137950E0038F561 /* Info.plist */,
+				0F05900321471F4300114BC5 /* GoogleService-Info.plist */,
+				0F7E1602229BAD5C0033C411 /* v1JotIt.png */,
+				0FC045DC225A730900D40DBF /* hamburger icon.png */,
 			);
 			path = TaskForce;
 			sourceTree = "<group>";
@@ -240,12 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3F5BEA21418749006D6FB2 /* ReportDetailController.swift in Sources */,
 				0F3531FD2137950D0038F561 /* MenuViewController.swift in Sources */,
 				0FB096F121F65A6300A7E11F /* LoginSignUp.swift in Sources */,
 				0F3531F92137950D0038F561 /* AppDelegate.swift in Sources */,
 				0F35320D2137A2EE0038F561 /* DetailViewController.swift in Sources */,
-				0F43BE24213F5B9200E0D6D1 /* ReportViewController.swift in Sources */,
 				0F3531FB2137950D0038F561 /* HomeViewController.swift in Sources */,
 				0F447260214A13C50086EDB4 /* ReportModel.swift in Sources */,
 				0F5373EC21D0C7B4003E58D9 /* ListModel.swift in Sources */,

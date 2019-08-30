@@ -86,16 +86,6 @@ override func didReceiveMemoryWarning() {
     // function that lets you add finished tasks to report
     @IBAction func addToReport(_ sender: Any) {
         creatCSV()
-//        if (titleLabel.text != "")           // checks to make sure user doesn't input a empty string
-//        {
-//        reportList.append(titleLabel.text!)    // adds whatever the user typed into the list
-//            titleLabel.text = ""             // converts whatever the user inputted into a string
-//        }
-//        if (descField.text != "")
-//        {
-//            reportDesc.append(descField.text!)   // adds whatever the user typed into the description array
-//            descField.text = ""    // converts whatever the user typed into a string
-//        }
     }
     
     
