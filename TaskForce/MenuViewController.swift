@@ -90,17 +90,5 @@ class MenuViewController: UIViewController, GADBannerViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    //Hides Keyboard when user taps anywhere outside the the keyboard
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
-    }
-    
-//    //Hides Keyboard when user taps return on software keyboard
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//        input.resignFirstResponder()
-//        inputField.resignFirstResponder()
-//        return(true)
-//    }
 }
 

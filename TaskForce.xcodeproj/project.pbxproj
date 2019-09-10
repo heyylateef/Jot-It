@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00044F71439206720C428F65 /* Pods_TaskForce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAFF6363C66110F986E53CA /* Pods_TaskForce.framework */; };
 		0F05900421471F4300114BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F05900321471F4300114BC5 /* GoogleService-Info.plist */; };
+		0F078EE7231B6B1C0060FE8D /* v1JotIt large copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F078EE6231B6B1C0060FE8D /* v1JotIt large copy.png */; };
 		0F3531F92137950D0038F561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3531F82137950D0038F561 /* AppDelegate.swift */; };
 		0F3531FB2137950D0038F561 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3531FA2137950D0038F561 /* HomeViewController.swift */; };
 		0F3531FD2137950D0038F561 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3531FC2137950D0038F561 /* MenuViewController.swift */; };
@@ -16,15 +17,17 @@
 		0F3532022137950E0038F561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3532012137950E0038F561 /* Assets.xcassets */; };
 		0F3532052137950E0038F561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3532032137950E0038F561 /* LaunchScreen.storyboard */; };
 		0F35320D2137A2EE0038F561 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35320C2137A2EE0038F561 /* DetailViewController.swift */; };
+		0F3ABCB8231B4931000E7AA3 /* v1JotIt small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3ABCB6231B4931000E7AA3 /* v1JotIt small.png */; };
 		0F447260214A13C50086EDB4 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44725F214A13C50086EDB4 /* ReportModel.swift */; };
 		0F5373EC21D0C7B4003E58D9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5373EB21D0C7B4003E58D9 /* ListModel.swift */; };
-		0F7E1603229BAD5C0033C411 /* v1JotIt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E1602229BAD5C0033C411 /* v1JotIt.png */; };
 		0FB096F121F65A6300A7E11F /* LoginSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB096F021F65A6300A7E11F /* LoginSignUp.swift */; };
+		0FB2C7CC231EC73D0083AE1C /* v1JotIt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2C7CB231EC73D0083AE1C /* v1JotIt.png */; };
 		0FC045DD225A730900D40DBF /* hamburger icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC045DC225A730900D40DBF /* hamburger icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F05900321471F4300114BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F078EE6231B6B1C0060FE8D /* v1JotIt large copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1JotIt large copy.png"; sourceTree = "<group>"; };
 		0F3531F52137950D0038F561 /* TaskForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3531F82137950D0038F561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F3531FA2137950D0038F561 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -34,10 +37,11 @@
 		0F3532042137950E0038F561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3532062137950E0038F561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F35320C2137A2EE0038F561 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0F3ABCB6231B4931000E7AA3 /* v1JotIt small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "v1JotIt small.png"; sourceTree = "<group>"; };
 		0F44725F214A13C50086EDB4 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
 		0F5373EB21D0C7B4003E58D9 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
-		0F7E1602229BAD5C0033C411 /* v1JotIt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v1JotIt.png; path = ../../../v1JotIt.png; sourceTree = "<group>"; };
 		0FB096F021F65A6300A7E11F /* LoginSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUp.swift; sourceTree = "<group>"; };
+		0FB2C7CB231EC73D0083AE1C /* v1JotIt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v1JotIt.png; path = Images/v1JotIt.png; sourceTree = SOURCE_ROOT; };
 		0FC045DC225A730900D40DBF /* hamburger icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hamburger icon.png"; path = "../../../../Downloads/hamburger icon.png"; sourceTree = "<group>"; };
 		C4BED43587672698DBB080D9 /* Pods-TaskForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskForce/Pods-TaskForce.debug.xcconfig"; sourceTree = "<group>"; };
 		E4590870E931185D46931B42 /* Pods-TaskForce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskForce.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskForce/Pods-TaskForce.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +93,9 @@
 				0F3532012137950E0038F561 /* Assets.xcassets */,
 				0F3532062137950E0038F561 /* Info.plist */,
 				0F05900321471F4300114BC5 /* GoogleService-Info.plist */,
-				0F7E1602229BAD5C0033C411 /* v1JotIt.png */,
+				0F3ABCB6231B4931000E7AA3 /* v1JotIt small.png */,
+				0F078EE6231B6B1C0060FE8D /* v1JotIt large copy.png */,
+				0FB2C7CB231EC73D0083AE1C /* v1JotIt.png */,
 				0FC045DC225A730900D40DBF /* hamburger icon.png */,
 			);
 			path = TaskForce;
@@ -173,12 +179,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F078EE7231B6B1C0060FE8D /* v1JotIt large copy.png in Resources */,
 				0F3532052137950E0038F561 /* LaunchScreen.storyboard in Resources */,
+				0F3ABCB8231B4931000E7AA3 /* v1JotIt small.png in Resources */,
 				0F05900421471F4300114BC5 /* GoogleService-Info.plist in Resources */,
 				0F3532022137950E0038F561 /* Assets.xcassets in Resources */,
+				0FB2C7CC231EC73D0083AE1C /* v1JotIt.png in Resources */,
 				0F3532002137950D0038F561 /* Main.storyboard in Resources */,
 				0FC045DD225A730900D40DBF /* hamburger icon.png in Resources */,
-				0F7E1603229BAD5C0033C411 /* v1JotIt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

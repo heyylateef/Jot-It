@@ -87,6 +87,7 @@ class LoginSignUp: UIViewController {
         super.viewDidLoad()
         segmentControl.addTarget(self, action: #selector(valueDidChange(segmentControl:)), for: .valueChanged)
         
+        self.hideKeyboardWhenTappedAround() //calls function to hide keyboard; must be in viewDidLoad
     }
     
     // Remembers the user's login. Will automatically sign in the use even if the user closes the app.
@@ -144,3 +145,16 @@ extension UITextField {
         layer.add(animation, forKey: "position")
     }
 }
+
+//Hides keyboard whenever user taps anywhere else on screen
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
+
